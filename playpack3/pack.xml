@@ -2,7 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="playpack32" name="PlayPack 3.2 (1.6.4)" newsUrl="http://launcher.dmptr.com/pack.xml#pp31" iconUrl="http://launcher.dmptr.com/icon.png" version="1.6.4" serverAddress="playdmptr.game.nfoservers.com:25565" revision="164" mainClass="net.minecraft.launchwrapper.Launch">
+    <Server id="playpack32" name="PlayPack 3.2 (1.6.4)" version="1.6.4" abstract="false" revision="">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.6.4&amp;forge=9.11.1.965">forge</Import>
         <!-- Example: Import (in URL, also Submodules and abstract packs) -->
         <Module id="liteloader" name="LiteLoader">

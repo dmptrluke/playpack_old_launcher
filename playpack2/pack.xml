@@ -2,8 +2,7 @@
 <?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="playpack2" name="PlayPack 2 (1.5.2)" version="1.5.2" revision="2.2.22_2"
-            mainClass="net.minecraft.launchwrapper.Launch" newsUrl="http://launcher.dmptr.com/pack.xml#pp2">
+    <Server id="playpack2" name="PlayPack 2 (1.5.2)" version="1.5.2" abstract="false" revision="">
         <!-- Core Mods -->
         <Module name="Minecraft Forge" id="forge" depends="">
             <Required>true</Required>
