@@ -1,14 +1,14 @@
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	
-	<Server id="singularity" name="Singularity Alpha (1.7.10)" newsUrl="http://launcher.dmptr.com/singularity/details.html"
+	<Server id="singularity" name="Singularity Alpha (1.7.10)" newsUrl="http://launcher.dmptr.com/singularity/pack.xml"
             iconUrl="http://launcher.dmptr.com/assets/singularity.png" version="1.7.10" revision=" " mainClass="net.minecraft.launchwrapper.Launch">
         <Import url="http://launcher.dmptr.com/singularity/pack.xml">singularity</Import>
 	</Server>
-    <Server id="playpack32" name="PlayPack 3.2 (1.6.4)" newsUrl="http://launcher.dmptr.com/playpack3/details.html"
+    <Server id="playpack32" name="PlayPack 3.2 (1.6.4)" newsUrl="http://launcher.dmptr.com/playpack3/pack.xml"
             iconUrl="http://launcher.dmptr.com/assets/playpack3.png" version="1.6.4" revision=" " mainClass="net.minecraft.launchwrapper.Launch">
         <Import url="http://launcher.dmptr.com/playpack3/pack.xml">playpack3</Import>
 	</Server>
-    <Server id="playpack2" name="PlayPack 2 (1.5.2)" newsUrl="http://launcher.dmptr.com/playpack2/details.html"
+    <Server id="playpack2" name="PlayPack 2 (1.5.2)" newsUrl="http://launcher.dmptr.com/playpack2/pack.xml"
              version="1.5.2" revision=" " mainClass="net.minecraft.launchwrapper.Launch">
         <Import url="http://launcher.dmptr.com/playpack2/pack.xml">playpack2</Import>
 	</Server>

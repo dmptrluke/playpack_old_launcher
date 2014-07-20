@@ -2,7 +2,8 @@
 <?xml-stylesheet href="http://launcher.dmptr.com/assets/ServerPack.xsl" type="text/xsl" ?>
 <ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com"
             xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-    <Server id="singularity" name="Singularity (1.7.10)" version="1.7.10" abstract="false" revision="">
+    <Server id="singularity" name="Singularity (1.7.10)" version="1.7.10" abstract="false" revision=""
+            iconUrl="http://launcher.dmptr.com/assets/singularity.png">
         <Import url="http://files.mcupdater.com/example/forge.php?mc=1.7.10&amp;forge=10.13.0.1180">forge</Import>
         <!-- Vanilla -->
         <Module id="options.txt" name="Default Options">

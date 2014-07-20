@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75847783-02a4-4029-8bac-59050365d732" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bootstrap/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ServerPack.xsl" afterPath="$PROJECT_DIR$/assets/ServerPack.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/master_pack.xml" afterPath="$PROJECT_DIR$/master_pack.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playpack3/pack.xml" afterPath="$PROJECT_DIR$/playpack3/pack.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singularity/pack.xml" afterPath="$PROJECT_DIR$/singularity/pack.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="playpack3.iws" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="master_pack.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="master_pack.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/master_pack.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.2383532" vertical-offset="0" max-vertical-offset="923">
+              <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -55,8 +55,8 @@
       <file leaf-file-name="pack.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singularity/pack.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9504">
-              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9526">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -65,8 +65,8 @@
       <file leaf-file-name="pack.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playpack3/pack.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17886">
-              <caret line="2" column="104" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="112" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17908">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -76,17 +76,17 @@
         <entry file="file://$PROJECT_DIR$/playpack2/pack.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11550">
-              <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerPack.xsl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ServerPack.xsl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/ServerPack.xsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47562298" vertical-offset="3653" max-vertical-offset="4576">
-              <caret line="186" column="57" selection-start-line="186" selection-start-column="57" selection-end-line="186" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3653" max-vertical-offset="4576">
+              <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -105,11 +105,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/master_pack.xml" />
-        <option value="$PROJECT_DIR$/playpack3/pack.xml" />
-        <option value="$PROJECT_DIR$/singularity/pack.xml" />
         <option value="$PROJECT_DIR$/playpack2/pack.xml" />
         <option value="$PROJECT_DIR$/assets/ServerPack.xsl" />
+        <option value="$PROJECT_DIR$/playpack3/pack.xml" />
+        <option value="$PROJECT_DIR$/singularity/pack.xml" />
+        <option value="$PROJECT_DIR$/master_pack.xml" />
       </list>
     </option>
   </component>
@@ -461,7 +461,11 @@
       <created>1405852090773</created>
       <updated>1405852090773</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tweaks&#10;">
+      <created>1405852193224</created>
+      <updated>1405852193224</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -568,26 +572,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/master_pack.xml">
+    <entry file="file://$PROJECT_DIR$/assets/ServerPack.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/singularity/pack.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9504">
-          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playpack3/pack.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17886">
-          <caret line="2" column="104" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="112" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3653" max-vertical-offset="4576">
+          <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -595,15 +583,31 @@
     <entry file="file://$PROJECT_DIR$/playpack2/pack.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11550">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/ServerPack.xsl">
+    <entry file="file://$PROJECT_DIR$/singularity/pack.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47562298" vertical-offset="3653" max-vertical-offset="4576">
-          <caret line="186" column="57" selection-start-line="186" selection-start-column="57" selection-end-line="186" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9526">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playpack3/pack.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17908">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/master_pack.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2383532" vertical-offset="0" max-vertical-offset="923">
+          <caret line="10" column="106" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
           <folding />
         </state>
       </provider>
