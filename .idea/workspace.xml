@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75847783-02a4-4029-8bac-59050365d732" name="Default" comment="">
+    <list default="true" id="75847783-02a4-4029-8bac-59050365d732" name="Default" comment="tweaks&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/ServerPack.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playpack2/pack.xml" afterPath="$PROJECT_DIR$/playpack2/pack.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playpack3/pack.xml" afterPath="$PROJECT_DIR$/playpack3/pack.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singularity/pack.xml" afterPath="$PROJECT_DIR$/singularity/pack.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -50,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pack.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pack.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singularity/pack.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2646154" vertical-offset="994" max-vertical-offset="9504">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9504">
+              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -63,18 +66,18 @@
       <file leaf-file-name="pack.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playpack3/pack.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="17886">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17886">
+              <caret line="2" column="104" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="112" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pack.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pack.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playpack2/pack.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="11572">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.047008548" vertical-offset="0" max-vertical-offset="11550">
+              <caret line="2" column="112" selection-start-line="2" selection-start-column="112" selection-end-line="2" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -93,18 +96,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/playpack3/pack.xml" />
-        <option value="$PROJECT_DIR$/playpack2/pack.xml" />
         <option value="$PROJECT_DIR$/master_pack.xml" />
+        <option value="$PROJECT_DIR$/playpack3/pack.xml" />
         <option value="$PROJECT_DIR$/singularity/pack.xml" />
+        <option value="$PROJECT_DIR$/playpack2/pack.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="356" />
-    <option name="y" value="85" />
-    <option name="width" value="1279" />
-    <option name="height" value="880" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1871" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,6 +234,10 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="951" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -432,11 +439,19 @@
       <created>1405851482455</created>
       <updated>1405851482455</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new urls">
+      <created>1405851666808</created>
+      <updated>1405851666808</updated>
+    </task>
+    <task id="LOCAL-00008" summary="tweaks&#10;">
+      <created>1405851976144</created>
+      <updated>1405851976144</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="356" y="85" width="1279" height="880" extended-state="0" />
+    <frame x="-8" y="-8" width="1871" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -445,7 +460,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21903199" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14743236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965213" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -479,7 +494,9 @@
     </option>
     <MESSAGE value="init playpack-legacy" />
     <MESSAGE value="formatting&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="formatting&#10;" />
+    <MESSAGE value="new urls" />
+    <MESSAGE value="tweaks&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaks&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -545,10 +562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playpack2/pack.xml">
+    <entry file="file://$PROJECT_DIR$/singularity/pack.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="11572">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9504">
+          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
           <folding />
         </state>
       </provider>
@@ -556,15 +573,15 @@
     <entry file="file://$PROJECT_DIR$/playpack3/pack.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17886">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <caret line="2" column="104" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="112" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singularity/pack.xml">
+    <entry file="file://$PROJECT_DIR$/playpack2/pack.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2646154" vertical-offset="994" max-vertical-offset="9504">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.047008548" vertical-offset="0" max-vertical-offset="11550">
+          <caret line="2" column="112" selection-start-line="2" selection-start-column="112" selection-end-line="2" selection-end-column="112" />
           <folding />
         </state>
       </provider>
