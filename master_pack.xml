@@ -1,0 +1,6 @@
+<ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	
+	<Server id="singularitydevelop" name="Singularity | Testing" newsUrl="http://launcher.dmptr.com/singularity/details.html" iconUrl="http://launcher.dmptr.com/pp4.png" version="1.7.10" serverAddress="singulo.game.nfoservers.com"  revision="b" mainClass="net.minecraft.launchwrapper.Launch">
+        <Import url="http://launcher.dmptr.com/singularity/pack.xml">master</Import>
+	</Server>
+</ServerPack>
