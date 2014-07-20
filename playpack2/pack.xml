@@ -474,14 +474,6 @@
                 <Path>/config/WildCaves3.cfg</Path>
             </ConfigFile>
         </Module>
-        <Module name="8-Bit Records" id="eightbit" depends="">
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <URL>http://launcher.dmptr.com/playpack2/mods/eightbit-1.0.5.zip</URL>
-            <MD5>5161d03d846156072a3f3cadf313fc34</MD5>
-            <Extract>true</Extract>
-            <InRoot>true</InRoot>
-        </Module>
         <Module name="Iron Chests" id="ironchests" depends="">
             <Required>true</Required>
             <ModType>Regular</ModType>

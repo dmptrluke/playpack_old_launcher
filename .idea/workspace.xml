@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75847783-02a4-4029-8bac-59050365d732" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playpack3/pack.xml" afterPath="$PROJECT_DIR$/playpack3/pack.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playpack2/pack.xml" afterPath="$PROJECT_DIR$/playpack2/pack.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="playpack3.iws" />
@@ -60,21 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pack.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pack.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playpack3/pack.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.07012195" vertical-offset="9396" max-vertical-offset="17424">
+            <state vertical-scroll-proportion="1.6428572" vertical-offset="9396" max-vertical-offset="17424">
               <caret line="425" column="19" selection-start-line="425" selection-start-column="19" selection-end-line="425" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pack.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pack.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playpack2/pack.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11550">
-              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.33231708" vertical-offset="10232" max-vertical-offset="11374">
+              <caret line="475" column="17" selection-start-line="475" selection-start-column="17" selection-end-line="475" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -103,11 +103,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/playpack2/pack.xml" />
         <option value="$PROJECT_DIR$/assets/ServerPack.xsl" />
         <option value="$PROJECT_DIR$/singularity/pack.xml" />
         <option value="$PROJECT_DIR$/master_pack.xml" />
         <option value="$PROJECT_DIR$/playpack3/pack.xml" />
+        <option value="$PROJECT_DIR$/playpack2/pack.xml" />
       </list>
     </option>
   </component>
@@ -467,7 +467,11 @@
       <created>1405852296644</created>
       <updated>1405852296644</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update playpack3 xml to match scema">
+      <created>1405866975045</created>
+      <updated>1405866975045</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,7 +520,8 @@
     <MESSAGE value="formatting&#10;" />
     <MESSAGE value="new urls" />
     <MESSAGE value="tweaks&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweaks&#10;" />
+    <MESSAGE value="update playpack3 xml to match scema" />
+    <option name="LAST_COMMIT_MESSAGE" value="update playpack3 xml to match scema" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -582,14 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playpack2/pack.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11550">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/master_pack.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
@@ -608,8 +605,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playpack3/pack.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07012195" vertical-offset="9396" max-vertical-offset="17424">
+        <state vertical-scroll-proportion="1.6428572" vertical-offset="9396" max-vertical-offset="17424">
           <caret line="425" column="19" selection-start-line="425" selection-start-column="19" selection-end-line="425" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playpack2/pack.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33231708" vertical-offset="10232" max-vertical-offset="11374">
+          <caret line="475" column="17" selection-start-line="475" selection-start-column="17" selection-end-line="475" selection-end-column="17" />
           <folding />
         </state>
       </provider>
