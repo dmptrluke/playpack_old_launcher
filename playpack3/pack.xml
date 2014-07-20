@@ -46,19 +46,12 @@
             <ModType>Regular</ModType>
             <MD5>857857fdf0b47646797d687def04a4c6</MD5>
         </Module>
-        <Module id="matmos" name="MAtmos">
-            <URL>http://launcher.dmptr.com/playpack3/mods/matmos-r26.zip</URL>
-            <Required isDefault="true">false</Required>
-            <ModType>Extract</ModType>
-            <MD5>b9da4411f4b059125410e9ce77759ff3</MD5>
-        </Module>
         <Module id="inventorytweaks" name="Inventory Tweaks">
             <URL>http://launcher.dmptr.com/playpack3/mods/inventorytweaks-1.56-b77.jar</URL>
             <Required isDefault="true">false</Required>
             <ModType>Regular</ModType>
             <MD5>c325e074d3f9e5ad3290b9c7e0d336c3</MD5>
         </Module>
-
         <Module id="optifine" name="OptiFine">
             <URL>http://launcher.dmptr.com/playpack3/mods/optifine-HD_U_D1.jar</URL>
             <Required isDefault="false">false</Required>
@@ -77,10 +70,10 @@
             </ConfigFile>
         </Module>
 		<Module id="openmods" name="OpenModsCore">
-            <URL>http://launcher.dmptr.com/playpack3/mods/openmods-0.4b.jar</URL>
+            <URL>http://launcher.dmptr.com/playpack3/mods/openmods-0.5.1.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
-            <MD5>46fcd35cde478787362475e5b917a202</MD5>
+            <MD5>c480594b88e34140221718a0982a9719</MD5>
 		</Module>
 		<Module id="bdlib" name="BDLib">
             <URL>http://launcher.dmptr.com/playpack3/mods/bdlib-1.2.2.45.jar</URL>
@@ -121,21 +114,25 @@
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>d8800f201da7fe01ba1f8127a9a568ff</MD5>
+            <Meta>
+                <version>0.9.0.9</version>
+                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/CodeChickenCore.cfg</URL>
                 <Path>config/CodeChickenCore.cfg</Path>
                 <MD5>34d8c9ee9264e27ad25444731c2d0cd9</MD5>
             </ConfigFile>
-            <Meta>
-                <version>0.9.0.9</version>
-                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
-            </Meta>
         </Module>
         <Module id="cofhcore" name="CoFH Core">
             <URL>http://launcher.dmptr.com/playpack3/mods/cofhcore-2.0.0.5.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>a3c5c440ecc89ff9b2d3ca777e44722b</MD5>
+            <Meta>
+                <version>2.0.0.5</version>
+                <URL>http://www.minecraftforum.net/topic/1773528-164-team-cofh-mods-thermal-expansion-300b9/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/cofh/CoFHCore.cfg</URL>
                 <Path>config/cofh/CoFHCore.cfg</Path>
@@ -151,10 +148,6 @@
                 <Path>config/cofh/CoFHWorld-Generation.cfg</Path>
                 <MD5>f58d4c11c8b1db5320c8bf906be202ef</MD5>
             </ConfigFile>
-            <Meta>
-                <version>2.0.0.5</version>
-                <URL>http://www.minecraftforum.net/topic/1773528-164-team-cofh-mods-thermal-expansion-300b9/</URL>
-            </Meta>
         </Module>
         <Module id="notenoughitems" name="NEI">
             <URL>http://launcher.dmptr.com/playpack3/mods/notenoughitems-1.6.1.9.jar</URL>
@@ -171,6 +164,10 @@
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>a9bf6342847866d6e5baf12550ddb480</MD5>
+            <Meta>
+                <version>0.9.4</version>
+                <URL>http://www.minecraftforum.net/topic/1932156-16x-atg-alternate-terrain-generation/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/atg/atg.cfg</URL>
                 <Path>config/atg/atg.cfg</Path>
@@ -181,25 +178,6 @@
                 <Path>config/atg/biome_modifiers.cfg</Path>
                 <MD5>e1a7785d5f729a47a721c70147681ce7</MD5>
             </ConfigFile>
-            <Meta>
-                <version>0.9.4</version>
-                <URL>http://www.minecraftforum.net/topic/1932156-16x-atg-alternate-terrain-generation/</URL>
-            </Meta>
-        </Module>
-        <Module id="extrabiomes" name="Terrain - ExtraBiomesXL">
-            <URL>http://launcher.dmptr.com/playpack3/mods/extrabiomes-3.14.5.jar</URL>
-            <Required>true</Required>
-            <ModType>Regular</ModType>
-            <MD5>e673ad351ef00901a6014d8dc72ef71c</MD5>
-            <ConfigFile>
-                <URL>http://launcher.dmptr.com/playpack3/config/extrabiomes/extrabiomes.cfg</URL>
-                <Path>config/extrabiomes/extrabiomes.cfg</Path>
-                <MD5>b1a5c87075b6a0ac998fbef515b1f380</MD5>
-            </ConfigFile>
-            <Meta>
-                <version>3.14.5</version>
-                <URL>http://www.minecraftforum.net/topic/1090288-164-extrabiomesxl-3145/</URL>
-            </Meta>
         </Module>
 		<Module id="deadlyworld" name="Terrain - Deadly World">
             <URL>http://launcher.dmptr.com/playpack3/mods/deadlyworld-1.0.2.zip</URL>
@@ -248,30 +226,30 @@
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>00d95b72c184e5233e412d2b241a3af4</MD5>
+            <Meta>
+                <version>0.4.3.4</version>
+                <URL>http://www.minecraftforum.net/topic/1554854-16xforge-wildcaves-3-v0433/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/wildcaves3.cfg</URL>
                 <Path>config/wildcaves3.cfg</Path>
                 <MD5>2f4de7d4f4ad2c362d7bfefd6ce493b9</MD5>
             </ConfigFile>
-            <Meta>
-                <version>0.4.3.4</version>
-                <URL>http://www.minecraftforum.net/topic/1554854-16xforge-wildcaves-3-v0433/</URL>
-            </Meta>
         </Module>
         <Module id="villagetaverns" name="Village Taverns">
             <URL>http://launcher.dmptr.com/playpack3/mods/taverns-2.1.6-3.15.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>e94246a18d6c0093858b0e54fbc1407e</MD5>
+            <Meta>
+                <version>2.1.5-1.12</version>
+                <URL>http://minecraft-beta.curseforge.com/mc-mods/70482-village-taverns-updated/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/taverns.cfg</URL>
                 <Path>config/taverns.cfg</Path>
                 <MD5>28f34975c85c39754ed9fc4e687ff428</MD5>
             </ConfigFile>
-            <Meta>
-                <version>2.1.5-1.12</version>
-                <URL>http://minecraft-beta.curseforge.com/mc-mods/70482-village-taverns-updated/</URL>
-            </Meta>
         </Module>
 		<Module id="extrautilities" name="Extra Utilities">
             <URL>http://launcher.dmptr.com/playpack3/mods/extrautils-1.0.3c.zip</URL>
@@ -289,63 +267,67 @@
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>d10ac60e48a192760e76c1de3b0c73ed</MD5>
+            <Meta>
+                <version>rv13-c</version>
+                <URL>http://ae-mod.info/Downloads/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/AppliedEnergistics.cfg</URL>
                 <Path>config/AppliedEnergistics.cfg</Path>
                 <MD5>74ed84601b1b9b244ca27786ba14b1fa</MD5>
             </ConfigFile>
-            <Meta>
-                <version>rv13-c</version>
-                <URL>http://ae-mod.info/Downloads/</URL>
-            </Meta>
         </Module>
 		<Module id="wrcbe" name="WR-CBE">
             <URL>http://launcher.dmptr.com/playpack3/mods/wrcbe-1.4.0.7.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>62904a34cc4ab4cbbda73514398f7592</MD5>
+            <Meta>
+                <version>1.4.0.7</version>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/WirelessRedstone.cfg</URL>
                 <Path>config/WirelessRedstone.cfg</Path>
                 <MD5>312bc30fedb0de29b766f54d3a2d3df7</MD5>
             </ConfigFile>
-            <Meta>
-                <version>1.4.0.7</version>
-            </Meta>
         </Module>
 		<Module id="chickenchunks" name="ChickenChunks">
             <URL>http://launcher.dmptr.com/playpack3/mods/chickenchunks-1.3.3.4.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>8aee65f6430b96e2b18e346b3713f51d</MD5>
+            <Meta>
+                <version>1.3.3.4</version>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/ChickenChunks.cfg</URL>
                 <Path>config/ChickenChunks.cfg</Path>
                 <MD5>cf1044174f8314ebbd6fc5da62e67ae3</MD5>
             </ConfigFile>
-            <Meta>
-                <version>1.3.3.4</version>
-            </Meta>
         </Module>
 		<Module id="openblocks" name="OpenBlocks">
-            <URL>http://launcher.dmptr.com/playpack3/mods/openblocks-1.2.7.jar</URL>
+            <URL>http://launcher.dmptr.com/playpack3/mods/openblocks-1.2.9.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
-            <MD5>2c4e7c19bf58d93abef3ada1de4b1354</MD5>
+            <MD5>a7f3422784f6c39c7eb1a32407f42754</MD5>
+            <Meta>
+                <version>1.2.7</version>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/OpenBlocks.cfg</URL>
                 <Path>config/OpenBlocks.cfg</Path>
                 <MD5>96d39346599bb0b124d81ce3257cae08</MD5>
             </ConfigFile>
-            <Meta>
-                <version>1.2.7</version>
-            </Meta>
         </Module>
         <Module id="forestry" name="Forestry">
             <URL>http://launcher.dmptr.com/playpack3/mods/forestry-2.3.1.1.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>1d97b9cac1dfa34ce0b1d4b0b6d26242</MD5>
+            <Meta>
+                <version>2.3.1.1</version>
+                <URL>http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/forestry/base.conf</URL>
                 <Path>config/forestry/base.conf</Path>
@@ -371,25 +353,21 @@
                 <Path>config/forestry/lepidopterology.conf</Path>
                 <MD5>927fee3e8e50f173c27d499687098332</MD5>
             </ConfigFile>
-            <Meta>
-                <version>2.3.1.1</version>
-                <URL>http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads</URL>
-            </Meta>
         </Module>
         <Module id="magicbees" name="Forestry: Magic Bees">
             <URL>http://launcher.dmptr.com/playpack3/mods/magicbees-2.1.12.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>86b02f6be1d0cc4fd6d67e87cfe43417</MD5>
+            <Meta>
+                <version>2.1.9</version>
+                <URL>http://www.minecraftforum.net/topic/1627856-magic-bees-magic-themed-bees-for-forestry-the-successor-to-thaumicbees/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/MagicBees.cfg</URL>
                 <Path>config/MagicBees.cfg</Path>
                 <MD5>61590ad50e1054d34637f990121c9a4b</MD5>
             </ConfigFile>
-            <Meta>
-                <version>2.1.9</version>
-                <URL>http://www.minecraftforum.net/topic/1627856-magic-bees-magic-themed-bees-for-forestry-the-successor-to-thaumicbees/</URL>
-            </Meta>
         </Module>
 		<Module id="gendustry" name="Forestry: Gendustry">
             <URL>http://launcher.dmptr.com/playpack3/mods/gendustry-1.1.2.72.jar</URL>
@@ -417,6 +395,10 @@
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>37470408cb00cb58915615676e6c2207</MD5>
+            <Meta>
+                <version>3.0.0.7</version>
+                <URL>http://www.minecraftforum.net/topic/1773528-164-team-cofh-mods-thermal-expansion-300b9/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/cofh/ThermalExpansion.cfg</URL>
                 <Path>config/cofh/ThermalExpansion.cfg</Path>
@@ -432,25 +414,21 @@
                 <Path>config/cofh/ThermalExpansion-Florbs.cfg</Path>
                 <MD5>210d89b12319dbf5897f3c1c353a8b76</MD5>
             </ConfigFile>
-            <Meta>
-                <version>3.0.0.7</version>
-                <URL>http://www.minecraftforum.net/topic/1773528-164-team-cofh-mods-thermal-expansion-300b9/</URL>
-            </Meta>
         </Module>
         <Module id="simplyjetpacks" name="SimplyJetpacks">
             <URL>http://launcher.dmptr.com/playpack3/mods/simplyjetpacks-0.1.4.1.jar</URL>
             <Required>true</Required>
             <ModType>Regular</ModType>
             <MD5>b1df0ddc48e3dfa4b22c5af1dc9f7639</MD5>
+            <Meta>
+                <version>0.4.1</version>
+                <URL>http://www.minecraftforum.net/topic/2548594-164-simply-jetpacks-0141-rf-powered-jetpacks/</URL>
+            </Meta>
             <ConfigFile>
                 <URL>http://launcher.dmptr.com/playpack3/config/simplyjetpacks.cfg</URL>
                 <Path>config/simplyjetpacks.cfg</Path>
                 <MD5>24f17be0273e40e646ca2f6df627dfca</MD5>
             </ConfigFile>
-            <Meta>
-                <version>0.4.1</version>
-                <URL>http://www.minecraftforum.net/topic/2548594-164-simply-jetpacks-0141-rf-powered-jetpacks/</URL>
-            </Meta>
         </Module>
         <Module id="buildcraft" name="Buildcraft 4">
             <URL>http://launcher.dmptr.com/playpack3/mods/buildcraft-4.2.2.jar</URL>
