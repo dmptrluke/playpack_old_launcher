@@ -1,0 +1,394 @@
+/* Highlands Settings */
+
+#SECTION: Additional Settings
+
+/* use a prefix of "Highlands:" + biome name for all biomes? May help if you are using multiple biome mods and have duplicate biome names /*
+PrefixBiomes = false
+
+
+#SECTION: Biomes
+/* All Biomes must have a unique ID even if set to generate false */
+/* Many biomes also generate as sub-biomes. If generate = false they won't generate either as a regular biome or a sub-biome */
+
+Alps
+BiomeID = 150
+Generate = true
+
+Autumn Forest
+BiomeID = 151
+Generate = true
+
+Badlands
+BiomeID = 152
+Generate = true
+
+Birch Hills
+BiomeID = 153
+Generate = true
+
+Bog
+BiomeID = 154
+Generate = true
+
+Cliffs
+BiomeID = 155
+Generate = true
+
+Desert Mountains
+BiomeID = 156
+Generate = true
+
+Dunes
+BiomeID = 157
+Generate = true
+
+Estuary
+BiomeID = 158
+Generate = true
+
+Flying Mountains
+BiomeID = 159
+Generate = true
+
+Glacier
+BiomeID = 160
+Generate = true
+
+Highlands
+BiomeID = 161
+Generate = true
+
+Lowlands
+BiomeID = 162
+Generate = true
+
+Meadow
+BiomeID = 163
+Generate = true
+
+Outback
+BiomeID = 164
+Generate = true
+
+Pinelands
+BiomeID = 165
+Generate = true
+
+Rainforest
+BiomeID = 166
+Generate = true
+
+Redwood Forest
+BiomeID = 167
+Generate = true
+
+Rock Mountains
+BiomeID = 168
+Generate = true
+
+Sahel
+BiomeID = 169
+Generate = true
+
+Savannah
+BiomeID = 170
+Generate = true
+
+Steppe
+BiomeID = 171
+Generate = true
+
+Snow Mountains
+BiomeID = 172
+Generate = true
+
+Tall Pine Forest
+BiomeID = 173
+Generate = true
+
+Tropics
+BiomeID = 174
+Generate = true
+
+Tropical Islands
+BiomeID = 175
+Generate = true
+
+Tundra
+BiomeID = 176
+Generate = true
+
+Woodlands
+BiomeID = 177
+Generate = true
+
+Woodland Mountains
+BiomeID = 178
+Generate = true
+
+/* extra BiomeID used for improved oceans. Set generate to false if you want regular vanilla oceans. */
+Ocean2
+BiomeID = 179
+Generate = true
+
+#SECTION: Sub-Biomes
+/* hills, islands, valleys, lakes - these will generate inside biomes if both they and their parent biome are set to true. */
+
+Desert Island
+BiomeID = 180
+Generate = true
+
+Forest Island
+BiomeID = 181
+Generate = true
+
+Jungle Island
+BiomeID = 182
+Generate = true
+
+Volcano Island
+BiomeID = 183
+Generate = true
+
+Snow Island
+BiomeID = 184
+Generate = true
+
+Rock Island
+BiomeID = 185
+Generate = true
+
+Windy Island
+BiomeID = 186
+Generate = true
+
+Lake
+BiomeID = 187
+Generate = true
+
+Bald Hill
+BiomeID = 188
+Generate = true
+
+Mesa
+BiomeID = 189
+Generate = true
+
+Valley
+BiomeID = 190
+Generate = true
+
+Oasis
+BiomeID = 191
+Generate = true
+
+Canyon
+BiomeID = 192
+Generate = true
+
+Shrubland
+BiomeID = 193
+Generate = true
+
+
+#SECTION: Vanilla Biomes
+/* set to true to see the vanilla biome in your Highlands worlds.  Default worlds always have all vanilla biomes. */
+
+Plains
+Generate = true
+
+Desert
+Generate = true
+
+Extreme Hills
+Generate = true
+
+Forest
+Generate = true
+
+Taiga
+Generate = true
+
+Swampland
+Generate = true
+
+Jungle
+Generate = true
+
+Ice Plains
+Generate = true
+
+
+#SECTION: Blocks
+/* All blocks must have a unique ID  */
+
+Acacia Sapling
+BlockID = 714
+
+Beech Sapling
+BlockID = 715
+
+Canopy Tree Sapling
+BlockID = 716
+
+Dead Tree Sapling
+BlockID = 717
+
+Great Oak Sapling
+BlockID = 718
+
+Fir Sapling
+BlockID = 719
+
+Poplar Sapling
+BlockID = 720
+
+Redwood Sapling
+BlockID = 721
+
+Evergreen Bush Sapling
+BlockID = 722
+
+Deciduous Bush Sapling
+BlockID = 723
+
+Palm Sapling
+BlockID = 724
+
+Ironwood Sapling
+BlockID = 725
+
+Mangrove Sapling
+BlockID = 726
+
+Ash Tree Sapling
+BlockID = 727
+
+Autumn Yellow Sapling
+BlockID = 728
+
+Autumn Orange Sapling
+BlockID = 729
+
+Acacia Log
+BlockID = 730
+
+Canopy Tree Log
+BlockID = 731
+
+Fir Log
+BlockID = 732
+
+Poplar Log
+BlockID = 733
+
+Redwood Log
+BlockID = 734
+
+Palm Log
+BlockID = 735
+
+Ironwood Log
+BlockID = 736
+
+Mangrove Log
+BlockID = 737
+
+Ash Tree Log
+BlockID = 738
+
+Acacia Leaves
+BlockID = 739
+
+Canopy Tree Leaves
+BlockID = 740
+
+Fir Leaves
+BlockID = 741
+
+Poplar Leaves
+BlockID = 742
+
+Redwood Leaves
+BlockID = 743
+
+Palm Leaves
+BlockID = 744
+
+Ironwood Leaves
+BlockID = 745
+
+Mangrove Leaves
+BlockID = 746
+
+Ash Tree Leaves
+BlockID = 747
+
+Autumn Yellow Leaves
+BlockID = 748
+
+Autumn Orange Leaves
+BlockID = 749
+
+Blue Flower
+BlockID = 750
+
+Leafy Fern
+BlockID = 751
+
+White Flower
+BlockID = 752
+
+Cattail
+BlockID = 753
+
+Lavender
+BlockID = 754
+
+Raspberry Bush
+BlockID = 755
+
+Blueberry Bush
+BlockID = 756
+
+Thornbush
+BlockID = 757
+
+Cotton
+BlockID = 758
+
+Highlands Planks
+BlockID = 759
+
+
+#SECTION: Additional Settings
+
+/* More Oceans - change this number if you want more / less oceans in your world (not less than 0).  1 is default. */
+/* Note that there will still be some oceans but much less than default even with this at 0. */
+MoreOceans = 1
+
+/* Highlands Biome Size - 4 is default world size, 6 is default large biomes size */
+/* size range: 1 - 15 (each 1 increase doubles size of biomes) */
+BiomeSize = 4
+
+/* Highlands Large Biomes Biome Size */
+LBBiomeSize = 6
+
+/* Use Highlands Biomes in Default Worlds (for compatibility with other biome mods) */
+HighlandsBiomesInDefaultWorlds = true
+
+/* Use custom sky colors? */
+SkyColors = true
+
+/* Use vanilla wood and leaf blocks instead of this mod's blocks? */
+VanillaBlocks = false
+
+/* generate Highlands small plants? */
+GenerateSmallPlants = true
+
+/* Enable Biome Ore Generation - set to false if you don't want any biome-specific ore generation, or if you are using Underground Biomes or Custom Ore Generation mods. */
+enableBiomeOreGen = false
+
+
+
+

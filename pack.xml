@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet href="ServerPack.xsl" type="text/xsl" ?>
+<ServerPack version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mcupdater.com" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+    <Server id="pp31" name="PlayPack 3.1 (1.6.4)" newsUrl="http://launcher.dmptr.com/pack.xml#pp31" iconUrl="http://launcher.dmptr.com/icon.png" version="1.6.4" serverAddress="playdmptr.game.nfoservers.com:25565" revision="164" mainClass="net.minecraft.launchwrapper.Launch">
+        <Import url="http://files.mcupdater.com/example/forge.php?mc=1.6.4&amp;forge=9.11.1.965">forge</Import>
+        <!-- Example: Import (in URL, also Submodules and abstract packs) -->
+        <Module id="liteloader" name="LiteLoader">
+            <!-- Example: ModType Library -->
+            <URL>http://dl.liteloader.com/versions/com/mumfrey/liteloader/1.6.4/liteloader-1.6.4.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType order="10" launchArgs="--tweakClass com.mumfrey.liteloader.launch.LiteLoaderTweaker">Library</ModType>
+            <MD5>531c116f71ae2b11033f9a11a0f8e668</MD5>
+            <Meta>
+                <URL>http://www.minecraftforum.net/topic/1868280-172api-liteloader-for-minecraft-164-172-beta-available/</URL>
+            </Meta>
+        </Module>
+        <Module id="voxelmap" name="Voxelmap">
+            <URL>http://launcher.dmptr.com/playpack3/mods/zansminimap-1.6.4.zip</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>dd79c6047439b9d051b7b7f5b8b08175</MD5>
+        </Module>
+		<Module id="tukmc" name="UI - TukMC">
+            <URL>http://launcher.dmptr.com/playpack3/mods/tukmc-3.2.5.zip</URL>
+            <Required isDefault="false">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>b441fbd43dcf9d3d42f39a7c31ca98ee</MD5>
+        </Module>
+		<Module id="compacthud" name="UI - CompactHUD">
+            <URL>http://launcher.dmptr.com/playpack3/mods/compacthud-1.0.1.zip</URL>
+            <Required isDefault="false">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>9fc062202a1af3317628a67ee68393af</MD5>
+        </Module>
+        <Module id="walia" name="Walia">
+            <URL>http://launcher.dmptr.com/playpack3/mods/walia-1.5.1a.zip</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>42790277280a0ef1ac66f2be1af82f43</MD5>
+        </Module>
+		<Module id="evoc" name="EVOC">
+            <URL>http://launcher.dmptr.com/playpack3/mods/evoc-1.0.0a.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>857857fdf0b47646797d687def04a4c6</MD5>
+        </Module>
+        <Module id="matmos" name="MAtmos">
+            <URL>http://launcher.dmptr.com/playpack3/mods/matmos-r26.zip</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Extract</ModType>
+            <MD5>b9da4411f4b059125410e9ce77759ff3</MD5>
+        </Module>
+        <Module id="inventorytweaks" name="Inventory Tweaks">
+            <URL>http://launcher.dmptr.com/playpack3/mods/inventorytweaks-1.56-b77.jar</URL>
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>c325e074d3f9e5ad3290b9c7e0d336c3</MD5>
+        </Module>
+
+        <Module id="optifine" name="OptiFine">
+            <URL>http://launcher.dmptr.com/playpack3/mods/optifine-HD_U_D1.jar</URL>
+            <Required isDefault="false">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>6572911cf960c0d4b7691dd0bf4f1e13</MD5>
+        </Module>
+        <Module id="grimcore" name="GrimCore">
+            <URL>http://launcher.dmptr.com/playpack3/mods/grimcore-0.1.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>c0e486935112dc8437abdb861fb1e5a4</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/GrimsMods/grim3212core.cfg</URL>
+                <Path>config/GrimsMods/grim3212core.cfg</Path>
+                <MD5>303791a6a68f9ce9ff9d1fe1eee96987</MD5>
+            </ConfigFile>
+        </Module>
+		<Module id="openmods" name="OpenModsCore">
+            <URL>http://launcher.dmptr.com/playpack3/mods/openmods-0.4b.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>46fcd35cde478787362475e5b917a202</MD5>
+		</Module>
+		<Module id="bdlib" name="BDLib">
+            <URL>http://launcher.dmptr.com/playpack3/mods/bdlib-1.2.2.45.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>51b1e4c93aa467f1865139095af3b739</MD5>
+		</Module>
+		<Module id="nec" name="NotEnoughCodecs">
+            <URL>http://launcher.dmptr.com/playpack3/mods/nec-0.1.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>a8cf90bc7356bbffaeafcd19b18ec0be</MD5>
+		</Module>
+        <Module id="powercrystalscore" name="PowerCrystals Core">
+            <URL>http://launcher.dmptr.com/playpack3/mods/powercrystalscore-1.1.8-9.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>11ce6aeaa3a73761580f9a541345ef4b</MD5>
+        </Module>
+		<Module id="keithyutils" name="Keithy Utils">
+            <URL>http://launcher.dmptr.com/playpack3/mods/keithyutils-1.2.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>e6eeeb9a7c4b70604ce2b0cd84e85dc5</MD5>
+        </Module>
+        <Module id="mobiuscore" name="MobiusCore">
+            <URL>http://launcher.dmptr.com/playpack3/mods/mobiuscore-1.2.1.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>eb582b71cc8aa22dd1b620b07c913eba</MD5>
+            <Meta>
+                <version>1.2.1</version>
+                <URL>http://profmobius.blogspot.fr/p/downloads.html</URL>
+            </Meta>
+        </Module>
+        <Module id="codechickencore" name="CodeChickenCore">
+            <URL>http://launcher.dmptr.com/playpack3/mods/codechickencore-0.9.0.9.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>d8800f201da7fe01ba1f8127a9a568ff</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/CodeChickenCore.cfg</URL>
+                <Path>config/CodeChickenCore.cfg</Path>
+                <MD5>34d8c9ee9264e27ad25444731c2d0cd9</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>0.9.0.9</version>
+                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
+            </Meta>
+        </Module>
+        <Module id="cofhcore" name="CoFH Core">
+            <URL>http://launcher.dmptr.com/playpack3/mods/cofhcore-2.0.0.5.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>a3c5c440ecc89ff9b2d3ca777e44722b</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/cofh/CoFHCore.cfg</URL>
+                <Path>config/cofh/CoFHCore.cfg</Path>
+                <MD5>ffbe7b55909833dd20dcea3fb233e151</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/cofh/CoFHWorld.cfg</URL>
+                <Path>config/cofh/CoFHWorld.cfg</Path>
+                <MD5>ac0d185f930ad35fb981ea127ea9fcb8</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/cofh/CoFHWorld-Generation.cfg</URL>
+                <Path>config/cofh/CoFHWorld-Generation.cfg</Path>
+                <MD5>f58d4c11c8b1db5320c8bf906be202ef</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.0.0.5</version>
+                <URL>http://www.minecraftforum.net/topic/1773528-164-team-cofh-mods-thermal-expansion-300b9/</URL>
+            </Meta>
+        </Module>
+        <Module id="notenoughitems" name="NEI">
+            <URL>http://launcher.dmptr.com/playpack3/mods/notenoughitems-1.6.1.9.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>752aedf4d3fce0553141efbcc8ea4a16</MD5>
+            <Meta>
+                <version>1.6.1.9</version>
+                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
+            </Meta>
+        </Module>
+        <Module id="atg" name="Terrain - ATG">
+            <URL>http://launcher.dmptr.com/playpack3/mods/atg-0.9.5.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>a9bf6342847866d6e5baf12550ddb480</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/atg/atg.cfg</URL>
+                <Path>config/atg/atg.cfg</Path>
+                <MD5>c8abcf41bea9db193f5821dd5281e138</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/atg/biome_modifiers.cfg</URL>
+                <Path>config/atg/biome_modifiers.cfg</Path>
+                <MD5>e1a7785d5f729a47a721c70147681ce7</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>0.9.4</version>
+                <URL>http://www.minecraftforum.net/topic/1932156-16x-atg-alternate-terrain-generation/</URL>
+            </Meta>
+        </Module>
+        <Module id="extrabiomes" name="Terrain - ExtraBiomesXL">
+            <URL>http://launcher.dmptr.com/playpack3/mods/extrabiomes-3.14.5.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>e673ad351ef00901a6014d8dc72ef71c</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/extrabiomes/extrabiomes.cfg</URL>
+                <Path>config/extrabiomes/extrabiomes.cfg</Path>
+                <MD5>b1a5c87075b6a0ac998fbef515b1f380</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>3.14.5</version>
+                <URL>http://www.minecraftforum.net/topic/1090288-164-extrabiomesxl-3145/</URL>
+            </Meta>
+        </Module>
+		<Module id="deadlyworld" name="Terrain - Deadly World">
+            <URL>http://launcher.dmptr.com/playpack3/mods/deadlyworld-1.0.2.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>57b49ac26285418d4a91450f538c234d</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/DeadlyWorld.cfg</URL>
+                <Path>config/DeadlyWorld.cfg</Path>
+                <MD5>8b89af2c3e5dc66681eeeb0c4f656055</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="biomesoplenty" name="Terrain - Biomes 'o' Plenty">
+            <URL>http://launcher.dmptr.com/playpack3/mods/biomesoplenty-1.2.1.434.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>0cae32c6cd14745e5f7a596e68bee709</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/biomesoplenty/ids.cfg</URL>
+                <Path>config/biomesoplenty/ids.cfg</Path>
+                <MD5>49363bfac82a3b2ed45776c91a60e005</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/biomesoplenty/main.cfg</URL>
+                <Path>config/biomesoplenty/main.cfg</Path>
+                <MD5>41f79d001cead240fdc99a35459ecba5</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/biomesoplenty/misc.cfg</URL>
+                <Path>config/biomesoplenty/misc.cfg</Path>
+                <MD5>e5730aa6f7550f3af2a523d2626888af</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/biomesoplenty/terraingen.cfg</URL>
+                <Path>config/biomesoplenty/terraingen.cfg</Path>
+                <MD5>33e14040705b320cf35b70bf453aa46f</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/biomesoplenty/biomegen.cfg</URL>
+                <Path>config/biomesoplenty/biomegen.cfg</Path>
+                <MD5>7f0efd07687639835b15890287a259ad</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="wildcaves" name="Terrain - WildCaves">
+            <URL>http://launcher.dmptr.com/playpack3/mods/wildcaves-0.4.3.4.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>00d95b72c184e5233e412d2b241a3af4</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/wildcaves3.cfg</URL>
+                <Path>config/wildcaves3.cfg</Path>
+                <MD5>2f4de7d4f4ad2c362d7bfefd6ce493b9</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>0.4.3.4</version>
+                <URL>http://www.minecraftforum.net/topic/1554854-16xforge-wildcaves-3-v0433/</URL>
+            </Meta>
+        </Module>
+        <Module id="villagetaverns" name="Village Taverns">
+            <URL>http://launcher.dmptr.com/playpack3/mods/taverns-2.1.6-3.15.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>e94246a18d6c0093858b0e54fbc1407e</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/taverns.cfg</URL>
+                <Path>config/taverns.cfg</Path>
+                <MD5>28f34975c85c39754ed9fc4e687ff428</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.1.5-1.12</version>
+                <URL>http://minecraft-beta.curseforge.com/mc-mods/70482-village-taverns-updated/</URL>
+            </Meta>
+        </Module>
+		<Module id="extrautilities" name="Extra Utilities">
+            <URL>http://launcher.dmptr.com/playpack3/mods/extrautils-1.0.3c.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>9eb5200ff895be6b95c62a26ba7d9a53</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/ExtraUtilities.cfg</URL>
+                <Path>config/ExtraUtilities.cfg</Path>
+                <MD5>6203c63f1f9570be7e4543ddc1145075</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="appliedenergistics" name="Applied Energistics">
+            <URL>http://launcher.dmptr.com/playpack3/mods/appeng-rv14.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>d10ac60e48a192760e76c1de3b0c73ed</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/AppliedEnergistics.cfg</URL>
+                <Path>config/AppliedEnergistics.cfg</Path>
+                <MD5>74ed84601b1b9b244ca27786ba14b1fa</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>rv13-c</version>
+                <URL>http://ae-mod.info/Downloads/</URL>
+            </Meta>
+        </Module>
+		<Module id="wrcbe" name="WR-CBE">
+            <URL>http://launcher.dmptr.com/playpack3/mods/wrcbe-1.4.0.7.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>62904a34cc4ab4cbbda73514398f7592</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/WirelessRedstone.cfg</URL>
+                <Path>config/WirelessRedstone.cfg</Path>
+                <MD5>312bc30fedb0de29b766f54d3a2d3df7</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.4.0.7</version>
+            </Meta>
+        </Module>
+		<Module id="chickenchunks" name="ChickenChunks">
+            <URL>http://launcher.dmptr.com/playpack3/mods/chickenchunks-1.3.3.4.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>8aee65f6430b96e2b18e346b3713f51d</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/ChickenChunks.cfg</URL>
+                <Path>config/ChickenChunks.cfg</Path>
+                <MD5>cf1044174f8314ebbd6fc5da62e67ae3</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.3.3.4</version>
+            </Meta>
+        </Module>
+		<Module id="openblocks" name="OpenBlocks">
+            <URL>http://launcher.dmptr.com/playpack3/mods/openblocks-1.2.7.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>2c4e7c19bf58d93abef3ada1de4b1354</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/OpenBlocks.cfg</URL>
+                <Path>config/OpenBlocks.cfg</Path>
+                <MD5>96d39346599bb0b124d81ce3257cae08</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.2.7</version>
+            </Meta>
+        </Module>
+        <Module id="forestry" name="Forestry">
+            <URL>http://launcher.dmptr.com/playpack3/mods/forestry-2.3.1.1.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>1d97b9cac1dfa34ce0b1d4b0b6d26242</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/forestry/base.conf</URL>
+                <Path>config/forestry/base.conf</Path>
+                <MD5>210931d66a091a253b48152510e7b7b2</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/forestry/common.conf</URL>
+                <Path>config/forestry/common.conf</Path>
+                <MD5>2f73e9ac2fb6748eee6c09071abd1096</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/forestry/backpacks.conf</URL>
+                <Path>config/forestry/backpacks.conf</Path>
+                <MD5>ce3f7055ea258a22c45c06023707031f</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/forestry/apiculture.conf</URL>
+                <Path>config/forestry/apiculture.conf</Path>
+                <MD5>0d0e847349c41c858d7aa6dbf1819aef</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/forestry/lepidopterology.conf</URL>
+                <Path>config/forestry/lepidopterology.conf</Path>
+                <MD5>927fee3e8e50f173c27d499687098332</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.3.1.1</version>
+                <URL>http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads</URL>
+            </Meta>
+        </Module>
+        <Module id="magicbees" name="Forestry: Magic Bees">
+            <URL>http://launcher.dmptr.com/playpack3/mods/magicbees-2.1.12.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>86b02f6be1d0cc4fd6d67e87cfe43417</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/MagicBees.cfg</URL>
+                <Path>config/MagicBees.cfg</Path>
+                <MD5>61590ad50e1054d34637f990121c9a4b</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.1.9</version>
+                <URL>http://www.minecraftforum.net/topic/1627856-magic-bees-magic-themed-bees-for-forestry-the-successor-to-thaumicbees/</URL>
+            </Meta>
+        </Module>
+		<Module id="gendustry" name="Forestry: Gendustry">
+            <URL>http://launcher.dmptr.com/playpack3/mods/gendustry-1.1.2.72.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>984edbd0329166598a54bc379a383884</MD5>
+			<ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/gendustry.cfg</URL>
+                <Path>config/gendustry.cfg</Path>
+                <MD5>cf7e5b38cb290dec9aacd98b8b7040c4</MD5>
+            </ConfigFile>
+        </Module>
+		<Module id="aquaculture" name="Aquaculture">
+            <URL>http://launcher.dmptr.com/playpack3/mods/aquaculture-1.2.4.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>799b10909d91b0c0f5a0bcf7c7ea9799</MD5>
+            <Meta>
+                <version>1.2.4</version>
+                <URL>http://www.minecraftforum.net/topic/1285120-164smpforge-aquaculture/</URL>
+            </Meta>
+        </Module>
+        <Module id="thermalexpansion" name="Thermal Expansion">
+            <URL>http://launcher.dmptr.com/playpack3/mods/thermalexpansion-3.0.0.7.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>37470408cb00cb58915615676e6c2207</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/cofh/ThermalExpansion.cfg</URL>
+                <Path>config/cofh/ThermalExpansion.cfg</Path>
+                <MD5>d3c577c17aeccb70e47ab2bd6a08517c</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/cofh/ThermalExpansion-Fuels.cfg</URL>
+                <Path>config/cofh/ThermalExpansion-Fuels.cfg</Path>
+                <MD5>0845b86347157f4948cf2537628f4857</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/cofh/ThermalExpansion-Florbs.cfg</URL>
+                <Path>config/cofh/ThermalExpansion-Florbs.cfg</Path>
+                <MD5>210d89b12319dbf5897f3c1c353a8b76</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>3.0.0.7</version>
+                <URL>http://www.minecraftforum.net/topic/1773528-164-team-cofh-mods-thermal-expansion-300b9/</URL>
+            </Meta>
+        </Module>
+        <Module id="simplyjetpacks" name="SimplyJetpacks">
+            <URL>http://launcher.dmptr.com/playpack3/mods/simplyjetpacks-0.1.4.1.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>b1df0ddc48e3dfa4b22c5af1dc9f7639</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/simplyjetpacks.cfg</URL>
+                <Path>config/simplyjetpacks.cfg</Path>
+                <MD5>24f17be0273e40e646ca2f6df627dfca</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>0.4.1</version>
+                <URL>http://www.minecraftforum.net/topic/2548594-164-simply-jetpacks-0141-rf-powered-jetpacks/</URL>
+            </Meta>
+        </Module>
+        <Module id="buildcraft" name="Buildcraft 4">
+            <URL>http://launcher.dmptr.com/playpack3/mods/buildcraft-4.2.2.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>3d2b0dad2291f1c0bb0c5b8c96303b68</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/buildcraft/main.conf</URL>
+                <Path>config/buildcraft/main.conf</Path>
+                <MD5>173db952ecadd40187e8fddd13181a5e</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>4.2.2</version>
+                <URL>http://www.mod-buildcraft.com/</URL>
+            </Meta>
+        </Module>
+        <Module id="thaumcraft" name="Thaumcraft 4">
+            <URL>http://launcher.dmptr.com/playpack3/mods/thaumcraft-4.1.0g.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>9760bb78fc71eb7f449bf3c8ad8cfb34</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/Thaumcraft.cfg</URL>
+                <Path>config/Thaumcraft.cfg</Path>
+                <MD5>0ce4a07b3ec226f19652c0990960f946</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>4.0.5b</version>
+                <URL>http://www.minecraftforum.net/topic/2011841-thaumcraft-405b-updated-24112013/</URL>
+            </Meta>
+        </Module>
+		<Module id="thaumictinkerer" name="Thaumic Tinkerer">
+            <URL>http://launcher.dmptr.com/playpack3/mods/thaumictinkerer-2.3-140.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>982d702b81ecd096091b6be61bfae087</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/ThaumicTinkerer.cfg</URL>
+                <Path>config/ThaumicTinkerer.cfg</Path>
+                <MD5>a60899081ebc7b3bd21d59f1ad290498</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.3-140</version>
+                <URL>http://www.minecraftforum.net/topic/2011841-thaumcraft-405b-updated-24112013/</URL>
+            </Meta>
+        </Module>
+        <Module id="tinkerconstruct" name="Tinker's Construct">
+            <URL>http://launcher.dmptr.com/playpack3/mods/tinkersconstruct_1.5.5.6.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>7fc342d8eeb6d129b9b0a1776ed8dfc2</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/TinkersWorkshop.txt</URL>
+                <Path>config/TinkersWorkshop.txt</Path>
+                <MD5>47dd4245e5f9a6d48192a33385e2ad2f</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.5.5.6</version>
+                <URL>http://www.minecraftforum.net/topic/1659892-164tinkers-construct/</URL>
+            </Meta>
+        </Module>
+		<Module id="steelworks" name="Tinker's Steelworks">
+            <URL>http://launcher.dmptr.com/playpack3/mods/steelworks-0.0.4.2.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>89116bcaa3738f2aa366cb87d0bc1f05</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/TSteelworks.cfg</URL>
+                <Path>config/TSteelworks.cfg</Path>
+                <MD5>12cb3eb02fcd80d37e20182236a06174</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>0.0.4.2</version>
+                <URL>http://www.minecraftforum.net/topic/1659892-164tinkers-construct/</URL>
+            </Meta>
+        </Module>
+		<Module id="mechworks" name="Tinker's Mechworks">
+            <URL>http://launcher.dmptr.com/playpack3/mods/mechworks-0.1.6.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>52b8cf82577bb9e391eb8bc1da7dd2d0</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/TMechworks.cfg</URL>
+                <Path>config/TMechworks.cfg</Path>
+                <MD5>bb0dad1f3fb801c9714c240581c6589b</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="mfr" name="MineFactory Reloaded">
+            <URL>http://launcher.dmptr.com/playpack3/mods/mfr-2.7.9.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>65f2499d749c18f8e9ca3b9cd0576da0</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/powercrystals/minefactoryreloaded/common.cfg</URL>
+                <Path>config/powercrystals/minefactoryreloaded/common.cfg</Path>
+                <MD5>e9d4dcec2cc50c1284b3d523623339e1</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.7.9</version>
+                <URL>http://www.minecraftforum.net/topic/2016680-162164-powercrystals-mods-minefactoryreloaded-powercrystalscore-and-netherores-updated/</URL>
+            </Meta>
+        </Module>
+        <Module id="computercraft" name="ComputerCraft">
+            <URL>http://launcher.dmptr.com/playpack3/mods/computercraft-1.63.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>2ca246b9d88325e0a48ed26f7272c00d</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/ComputerCraft.cfg</URL>
+                <Path>config/ComputerCraft.cfg</Path>
+                <MD5>1d812502f76aa04aabe40e2b02361b9d</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/CCTurtle.cfg</URL>
+                <Path>config/CCTurtle.cfg</Path>
+                <MD5>4141ceee4b3838b9b2fd5bb46358ab95</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.58</version>
+                <URL>http://www.computercraft.info/</URL>
+            </Meta>
+        </Module>
+        <Module id="torchlevers" name="Torch Levers">
+            <URL>http://launcher.dmptr.com/playpack3/mods/torchlevers-1.3.3.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>fee087546f042d4c5af5438bbc4a9741</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/TorchLevers.cfg</URL>
+                <Path>config/TorchLevers.cfg</Path>
+                <MD5>d5438af03bf69252e72d993531df0a5d</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.3.3</version>
+                <URL>http://www.minecraftforum.net/topic/1727570-164-forge-torch-levers-and-more-version-132-updated-2013-9-15/</URL>
+            </Meta>
+        </Module>
+        <Module id="minersmark" name="Miner's Mark">
+            <URL>http://launcher.dmptr.com/playpack3/mods/makersmark-1.0_98fc.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>eeb73145df9c4d07b5f852d7e6d2fae2</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/MakersMark.cfg</URL>
+                <Path>config/MakersMark.cfg</Path>
+                <MD5>865e6b11622a1d9b6142802a5cb46802</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.0_98fc</version>
+                <URL>http://www.minecraftforum.net/topic/1990181-164-forge-makers-mark-currency-mod-version-10/</URL>
+            </Meta>
+        </Module>
+        <Module id="obsidiplates" name="ObsidiPlates">
+            <URL>http://launcher.dmptr.com/playpack3/mods/obsidiplates-2.0.0.15.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>c64ea8742cd60ef359d36bb84d4b10a5</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/ObsidiPlates.cfg</URL>
+                <Path>config/ObsidiPlates.cfg</Path>
+                <MD5>4cf37b10ef426e8cf40ff26a4d2a3bc4</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>2.0.0.15</version>
+                <URL>http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/</URL>
+            </Meta>
+        </Module>
+        <Module id="carpentersblocks" name="Carpenter's Blocks">
+            <URL>http://launcher.dmptr.com/playpack3/mods/carpenters-2.0.8.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>d47676f5081f03503006efbf32c8f089</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/CarpentersBlocks.cfg</URL>
+                <Path>config/CarpentersBlocks.cfg</Path>
+                <MD5>762cbd986ed99599014989750e781c98</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.9.9</version>
+                <URL>http://www.minecraftforum.net/topic/1790919-1516forge-carpenters-blocks-v197-slopes-stairs-and-more</URL>
+            </Meta>
+        </Module>
+        <Module id="railcraft" name="Railcraft">
+            <URL>http://launcher.dmptr.com/playpack3/mods/railcraft-8.4.0.0.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>83c9166bedf370b7cb393eca8a8c9c7f</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/railcraft/railcraft.cfg</URL>
+                <Path>config/railcraft/railcraft.cfg</Path>
+                <MD5>8cc26324e7405d61680777787cd11f18</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/railcraft/modules.cfg</URL>
+                <Path>config/railcraft/modules.cfg</Path>
+                <MD5>5040bc8a9805fe1eb57aaa7c2a3fccd1</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>8.3.1.0</version>
+                <URL>http://www.minecraftforum.net/topic/701990-162-railcraft-8000-forge/</URL>
+            </Meta>
+        </Module>
+        <Module id="twilightforest" name="Twilight Forest">
+            <URL>http://launcher.dmptr.com/playpack3/mods/twilightforest-1.20.5.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>ca465ee6717e9a28844b4e5bb6ce8abd</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/TwilightForest.cfg</URL>
+                <Path>config/TwilightForest.cfg</Path>
+                <MD5>3c951098da46977fdadc367c58e19010</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.20.3</version>
+                <URL>http://www.minecraftforum.net/topic/561673-164-the-twilight-forest-v1203-haunting-of-the-knight-phantoms/</URL>
+            </Meta>
+        </Module>
+        <Module id="bibliocraft" name="BiblioCraft">
+            <URL>http://launcher.dmptr.com/playpack3/mods/bibliocraft-1.5.4.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>cb2b8a33d7bb27e22111a7915d2a121a</MD5>
+            <Submodule id="bibliowoods-forestry" name="Bibliocraft - Forestry Woods">
+                <URL>http://launcher.dmptr.com/playpack3/mods/bibliowoods-forestry-1.3.zip</URL>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>957b8a4255318ea4bfad3aa26e770f40</MD5>
+            </Submodule>
+            <Submodule id="bibliowoods-bop" name="Bibliocraft - BoP Woods">
+                <URL>http://launcher.dmptr.com/playpack3/mods/bibliowoods-bop-1.3.zip</URL>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>b4171a695cbbdda3aca2f8617b88468a</MD5>
+            </Submodule>
+            <Submodule id="bibliowoods-ebxl" name="Bibliocraft - EBXL Woods">
+                <URL>http://launcher.dmptr.com/playpack3/mods/bibliowoods-ebxl-1.1.zip</URL>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>0be9ddc9977cdf7e94a5455463af8a1e</MD5>
+            </Submodule>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/BiblioCraft.cfg</URL>
+                <Path>config/BiblioCraft.cfg</Path>
+                <MD5>f1ad402a7b4b3750dd8fe8893789d9aa</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.5.4</version>
+                <URL>http://lanteacraft.pc-logix.com/</URL>
+            </Meta>
+        </Module>
+        <Module id="hopperducts" name="Hopper Ducts">
+            <URL>http://launcher.dmptr.com/playpack3/mods/hopperducts-1.2.2.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>21aa1dafc9dda624bc8786cbe943241e</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/HopperDuctMod.cfg</URL>
+                <Path>config/HopperDuctMod.cfg</Path>
+                <MD5>a5b3e402d3ea619651958069071149f4</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.2.2</version>
+                <URL>http://www.minecraftforum.net/topic/1932977-152162164-hopper-ducts-mod/</URL>
+            </Meta>
+        </Module>
+        <Module id="ironchests" name="Iron Chests">
+            <URL>http://launcher.dmptr.com/playpack3/mods/ironchest-5.4.1.649.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>2675aa3370448254e880bb069c6f06c6</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/IronChest.cfg</URL>
+                <Path>config/IronChest.cfg</Path>
+                <MD5>f4847619f6bcbae4ec1bfc15ea878499</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>5.4.1.649</version>
+                <URL>http://www.minecraftforum.net/topic/981855-15-and-up-forge-universalironchests-50-minecraft-15-update/</URL>
+            </Meta>
+        </Module>
+        <Module id="jabba" name="JABBA">
+            <URL>http://launcher.dmptr.com/playpack3/mods/jabba-1.1.3.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>b6cbb7323baff9d3b9e47aafca222464</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/JABBA.cfg</URL>
+                <Path>config/JABBA.cfg</Path>
+                <MD5>62b4408769f515d11fb32eff9232f867</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.1.3</version>
+                <URL>http://www.minecraftforum.net/topic/2182366-16x-jabba-102-just-another-better-barrel-attempt/</URL>
+            </Meta>
+        </Module>
+        <Module id="enderstorage" name="Ender Storage">
+            <URL>http://launcher.dmptr.com/playpack3/mods/enderstorage-1.4.3.6.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>773a0561b77684aa85f6e87cc972daba</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/EnderStorage.cfg</URL>
+                <Path>config/EnderStorage.cfg</Path>
+                <MD5>c3a16d27ca715734c78ffb4c28a2e16d</MD5>
+            </ConfigFile>
+            <Meta>
+                <version>1.4.3.6</version>
+                <URL>http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/</URL>
+            </Meta>
+        </Module>
+        <Module id="machetes" name="MiniMod - Machetes">
+            <URL>http://launcher.dmptr.com/playpack3/mods/machetes.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>273ca348730dc4537f5af4e30c4e3756</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/GrimsMods/machetes.cfg</URL>
+                <Path>config/GrimsMods/machetes.cfg</Path>
+                <MD5>a0a266876422c5c157f3532f572553c8</MD5>
+            </ConfigFile>
+        </Module>
+		<Module id="infinibows" name="InfiniBows">
+            <URL>http://launcher.dmptr.com/playpack3/mods/infinibows-1.2.0.14.jar</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>f224eb305c7b1bff621265afba964a8d</MD5>
+        </Module>
+        <Module id="icemaker" name="MiniMod - Ice Maker">
+            <URL>http://launcher.dmptr.com/playpack3/mods/icemaker.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>833563876a0894041250025d7307afc5</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack3/config/GrimsMods/icemaker.cfg</URL>
+                <Path>config/GrimsMods/icemaker.cfg</Path>
+                <MD5>0c1f3954d26e828edf39bcd3d2e21f6e</MD5>
+            </ConfigFile>
+        </Module>
+        <Module id="orespiders" name="MiniMod - Ore Spiders">
+            <URL>http://launcher.dmptr.com/playpack3/mods/orespiders-1.1.zip</URL>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>fb17f6bca545a8310d8a49fd58486736</MD5>
+        </Module>
+        <Module id="opis" name="Opis [LAGGY DEBUG TOOL: DO NOT ENABLE]">
+            <URL>http://launcher.dmptr.com/playpack3/mods/opis-1.2.2.zip</URL>
+            <Required isDefault="false">false</Required>
+            <ModType>Regular</ModType>
+            <MD5>0fd82027b3d17c80eef0003139828268</MD5>
+            <Meta>
+                <version>1.2.2</version>
+                <URL>http://profmobius.blogspot.fr/p/opis.html</URL>
+            </Meta>
+        </Module>
+    </Server>
+    <Server id="pp2" name="[OLD] PlayPack 2 (1.5.2)" version="1.5.2" revision="2.2.22_2" mainClass="net.minecraft.launchwrapper.Launch" newsUrl="http://launcher.dmptr.com/pack.xml#pp2">
+        <!-- Core Mods -->
+        <Module name="Minecraft Forge" id="forge" depends="">
+            <Required>true</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/forge-737.zip</URL>
+            <MD5>ea0aa5a84703b7d07ec0431c4e8745a3</MD5>
+            <ModType order="1">Jar</ModType>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/forge.cfg</URL>
+                <MD5>3f45d0698bf2e2a758b5098fdfdf79b0</MD5>
+                <Path>/config/forge.cfg</Path>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/forgeChunkLoading.cfg</URL>
+                <MD5>4ce905d334b2108fb915016d7e49e618</MD5>
+                <Path>/config/forgeChunkLoading.cfg</Path>
+            </ConfigFile>
+        </Module>
+		<Module id="fmllib" name="Forge Libraries">
+            <URL>http://launcher.dmptr.com/playpack2/fmllibs152.zip</URL>
+            <Required>true</Required>
+            <ModType inRoot="true">Extract</ModType>
+            <MD5>596ccc81a293f9972fad2514d8738e87</MD5>
+        </Module>
+        <!-- Libraries -->
+        <Module name="CodeChicken Core" id="codechickencore" depends="">
+            <Required>true</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/codechickencore-0.8.6.15.jar</URL>
+            <MD5>69c1768606869cff68f0de8928a5e2a9</MD5>
+            <ModType>Coremod</ModType>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/CodeChickenCore.cfg</URL>
+                <MD5>94b8e21fcc9436b85e735f088b05cf53</MD5>
+                <Path>/config/CodeChickenCore.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Immibis Core" id="immibiscore" depends="">
+            <Required>true</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/immibis-core-55.1.6.jar</URL>
+            <MD5>7b592cefb90b8a003dcc635b619e6335</MD5>
+            <ModType>Regular</ModType>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/immibis.cfg</URL>
+                <MD5>96e85711f872d900e7be0d6046d7e2fc</MD5>
+                <Path>/config/immibis.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Immibis Microblocks" id="immibismicroblocks" depends="immibiscore">
+            <Required>true</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/immibis-microblocks-55.0.7.jar</URL>
+            <MD5>e20b95e9be437c57ce2184dfd2c760cd</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/immibis-microblocks.cfg</URL>
+                <MD5>11b59f798e806e2959fa6f8393cd35e9</MD5>
+                <Path>/config/immibis-microblocks.cfg</Path>
+            </ConfigFile>
+            <ModType>Coremod</ModType>
+        </Module>
+        <Module name="PowerCrystals Core" id="powercrystalscore" depends="">
+            <Required>true</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/powercrystalscore-1.1.6-107.jar</URL>
+            <MD5>ac2ac8c6a251defe7da6426a943a3762</MD5>
+            <ModType>Coremod</ModType>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/powercrystals/core/client.cfg</URL>
+                <MD5>da69eefa49a0a83db192cd3135a348b0</MD5>
+                <Path>/config/powercrystals/core/client.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="CoFH Core" id="cofhcore" depends="">
+            <Required>true</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/cofhcore-1.5.2.5.jar</URL>
+            <MD5>6c15b8c217005540d1f310b8e10cdced</MD5>
+            <ModType>Coremod</ModType>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/cofh/CoFHCore.cfg</URL>
+                <MD5>93826bc402de9295c465b962646c34f8</MD5>
+                <Path>/config/cofh/CoFHCore.cfg</Path>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/cofh/World.cfg</URL>
+                <MD5>f779ed80cfccf4821a5c0b4cc4b158e3</MD5>
+                <Path>/config/cofh/World.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Modstats" id="modstats" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/config/modstats.cfg</URL>
+            <MD5>f3cf52b4a0d2964983d1c42d28eb97b1</MD5>
+            <ModPath>/config/modstats.cfg</ModPath>
+        </Module>
+        <!-- Tweaks -->
+        <Module name="Updated LWJGL" id="lwjgl" depends="">
+            <Required isDefault="false">false</Required>
+            <ModType inRoot="true">Extract</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/lwjgl-2.9.0.zip</URL>
+            <MD5>65a353350f239ed0694c784cb6f5259e</MD5>
+        </Module>
+        <!-- Graphics Mods -->
+        <Module name="Optifine" id="optifine" depends="">
+			<Required isDefault="true">false</Required>
+            <ModType order="2">Jar</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/optifine-1.5.2-D2.zip</URL>
+            <MD5>c91c737453de30db28974c26db57bc6e</MD5>
+        </Module>
+        <!-- Utility Mods -->
+        <Module name="Not Enough Items" id="nei" depends="ccc">
+            <Required isDefault="true">false</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/nei-1.5.2.25.jar</URL>
+            <MD5>ff89be2afab53be741824e20cb836bd0</MD5>
+            <ModType>Coremod</ModType>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/NEI.cfg</URL>
+                <MD5>02f880d34276c9994fdfc32dd2fd5e2c</MD5>
+                <Path>/config/NEI.cfg</Path>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/NEIServer.cfg</URL>
+                <MD5>735f6724730b37aebe2eca1e622c5150</MD5>
+                <Path>/config/NEIServer.cfg</Path>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/NEISubset.cfg</URL>
+                <MD5>6987baaf6a10fc46a18b1427a566d37f</MD5>
+                <Path>/config/NEISubset.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Not Enough Items: Plugins" id="neiplugins" depends="nei">
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/neiplugins-1.1.0.6.jar</URL>
+            <MD5>f005f1044b4fd706fef4858caef7db03</MD5>
+        </Module>
+        <Module name="Inventory Tweaks" id="invtweaks" depends="">
+            <Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/invtweaks-1.53.jar</URL>
+            <MD5>b2c48a14ad6854a77dde603b2bc42a47</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/InvTweaks.cfg</URL>
+                <MD5>765b6e1cad7c0c31bbc37782aeb49f11</MD5>
+                <Path>/config/InvTweaks.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="MAtmos" id="matmos" depends="">
+            <Required isDefault="true">false</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/matmos-r24-1.5.2.zip</URL>
+            <MD5>4960b0250d0526ece7bf191c9a6fd09c</MD5>
+            <ModType inRoot="true">Extract</ModType>
+        </Module>
+        <Module name="Reis Minimap" id="minimap" depends="">
+            <Required isDefault="true">false</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/rei-3.3_06.zip</URL>
+            <MD5>1392997c0165ada3f21c772b7278e5f1</MD5>
+        </Module>
+        <!-- WorldGen Mods -->
+        <Module name="ExtraBiomesXL" id="extrabiomesxl" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/extrabiomesxl-3.13.4.jar</URL>
+            <MD5>68cb8359e96ce90341a9ea16e3cdc84a</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/extrabiomes/extrabiomes.cfg</URL>
+                <MD5>348601ee20423d5a72d8c4e75e0fb64a</MD5>
+                <Path>/config/extrabiomes/extrabiomes.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Highlands" id="highlands" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/highlands-2.0.2.zip</URL>
+            <MD5>ca9361b483a05cb2aec4fffff5904955</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/HighlandsSettings.txt</URL>
+                <MD5>55e68a966d10268df5268628f1a42bf5</MD5>
+                <Path>/config/HighlandsSettings.txt</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Twilight Forest" id="twilightforest" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/twilightforest-1.18.1.zip</URL>
+            <MD5>a95831e669f0681418185f4b3cb5bda6</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/TwilightForest.cfg</URL>
+                <MD5>989b06649d96b87a0bb6c88eac0aa00e</MD5>
+                <Path>/config/TwilightForest.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <!-- Content Mods -->
+        <Module name="Mystcraft" id="mystcraft" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/mystcraft-0.10.4.00.zip</URL>
+            <MD5>ae142f3a9d811aecc7e40911f4e81af5</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/mystcraft/core.cfg</URL>
+                <Path>/config/mystcraft/core.cfg</Path>
+                <MD5>e21db16aa358697f60b569a16b833d36</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/mystcraft/symbols.cfg</URL>
+                <Path>/config/mystcraft/symbols.cfg</Path>
+                <MD5>2519b9f5e60753876e3ec9bda5d09cdf</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="IndustrialCraft 2" id="ic2" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/ic2-1.117.921.jar</URL>
+            <MD5>45f3e55c112f942889966142cf45dc5f</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/IC2.cfg</URL>
+                <MD5>26245438b7cd0cb9d64646a392f0f1eb</MD5>
+                <Path>/config/IC2.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="IC2: ChargePads" id="chargepads" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/chargepads-1.5.2.86.jar</URL>
+            <MD5>8bc62c444674c59598e29702dd6e8622</MD5>
+        </Module>
+        <Module name="IC2: GraviSuite" id="gravisuite" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/gravisuite-1.9.2.zip</URL>
+            <MD5>e35005cf127d9c55a2310f36bba51398</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/GraviSuite.cfg</URL>
+                <MD5>c9efef70471cad69904b58c52f9a1ad3</MD5>
+                <Path>/config/GraviSuite.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Soul Shards" id="soulshards" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/soulshards-1.0.36.jar</URL>
+            <MD5>02e25d56898802aae0d77415c2792d8d</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/SoulShards.cfg</URL>
+                <MD5>705558d262fadc313c0cb90f21a1e223</MD5>
+                <Path>/config/SoulShards.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Buildcraft" id="buildcraft" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/buildcraft-A-3.7.2.jar</URL>
+            <MD5>4495f0087053a8434863d08677420b62</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/buildcraft/main.conf</URL>
+                <MD5>0bc9a685c356619bc17b44ca981df3f4</MD5>
+                <Path>/config/buildcraft/main.conf</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="RailCraft" id="railcraft" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/railcraft-7.3.0.0.jar</URL>
+            <MD5>a6d1627a0ecaca3b7d8f8117293fc12a</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/railcraft/railcraft.cfg</URL>
+                <Path>/config/railcraft/railcraft.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Steve's Carts" id="stevescarts" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/stevescarts-a109.zip</URL>
+            <MD5>7b27bc76e20156b0c2c69cc2d3bf3a28</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/StevesCarts.cfg</URL>
+                <MD5>5b0ea524504db858511081f3ad71c610</MD5>
+                <Path>/config/StevesCarts.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Tinker's Construct" id="tinkersconstruct" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/tconstruct-1.4.1.5.jar</URL>
+            <MD5>c16ea944f0bd64b9cd423336a1183867</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/TinkersWorkshop.txt</URL>
+                <MD5>7439d915f322760a466c2c46629b8e7a</MD5>
+                <Path>/config/TinkersWorkshop.txt</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Natura" id="natura" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/natura-2.1.3.jar</URL>
+            <MD5>8bfb1f86327f1ace3316a144a0fed1e8</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/Natura.txt</URL>
+                <MD5>7a457f2d3ba01dd7515e163e6fbb47b5</MD5>
+                <Path>/config/Natura.txt</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="MineFactory Reloaded" id="minefactoryreloaded" depends="powercrystalscore">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/minefactoryreloaded-2.6.4-975.jar</URL>
+            <MD5>b204a59dacb8bd2f815d5cb239287236</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/powercrystals/minefactoryreloaded/common.cfg</URL>
+                <Path>/config/powercrystals/minefactoryreloaded/common.cfg</Path>
+                <MD5>960463c3157a7371c8a10ce5cca18498</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="ObsidiPlates" id="obsidiplates" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/obsidiplates-1.4.0.12.jar</URL>
+            <MD5>11f5ba5c1a501bf73033dcfc67302d1d</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/ObsidiPlates.cfg</URL>
+                <Path>/config/ObsidiPlates.cfg</Path>
+                <MD5>17cbee6fb508f1482fccaa2f98386f9e</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="ComputerCraft" id="computercraft" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/computercraft-1.53.zip</URL>
+            <MD5>be7b77384b966e66e264de6868cd25f9</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/ComputerCraft.cfg</URL>
+                <MD5>71c4a89d4ed91bcf782c6fae0dfa80ac</MD5>
+                <Path>/config/ComputerCraft.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Computercraft: Immibis Peripherals" id="immibisperipherals" depends="computercraft">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/immibis-peripherals-55.0.2.jar</URL>
+            <MD5>b3a9f27f7c5085281802fe1dfd62d798</MD5>
+        </Module>
+        <Module name="Applied Energistics" id="appeng" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/appeng-rv12-dev5.zip</URL>
+            <MD5>a4c994f2d71c29cfe933067544fe0037</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/AppliedEnergistics.cfg</URL>
+                <MD5>aaee4c10d8f43a38e8bcce9c177626b1</MD5>
+                <Path>/config/AppliedEnergistics.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="MFFS" id="mffs" depends="">
+            <ModType>Regular</ModType>
+            <Required>true</Required>
+            <URL>http://launcher.dmptr.com/playpack2/mods/mffs-3.1.0.175.jar</URL>
+            <MD5>77bb431f762c4fe6cdad487aa9974f54</MD5>
+            <!--<ConfigFile>
+        <URL>http://launcher.dmptr.com/playpack2/config/AppliedEnergistics.cfg</URL>
+        <MD5></MD5>
+
+        <Path>/config/AppliedEnergistics.cfg</Path>
+      </ConfigFile>-->
+        </Module>
+        <Module name="Thermal Expansion" id="thermalexpansion" depends="cofhcore">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/thermalexpansion-2.4.6.0.jar</URL>
+            <MD5>33a060dd4b58e6cf5df564487314dc43</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/cofh/ThermalExpansion.cfg</URL>
+                <MD5>ef54aa449b30cd33b9421936a2e0295e</MD5>
+                <Path>/config/cofh/ThermalExpansion.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="OmniTools" id="omnitools" depends="cofhcore">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/omnitools-3.1.6.0.jar</URL>
+            <MD5>6c20c5fec23df58954570239b4129c54</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/cofh/omnitools.cfg</URL>
+                <Path>/config/cofh/omnitools.cfg</Path>
+                <MD5>f48ff6cf48fb008e9ad6004f8b567db8</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/cofh/Lexicon_Whitelist.txt</URL>
+                <Path>/config/cofh/Lexicon_Whitelist.txt</Path>
+                <MD5>dfdef4a62b869d8ac83138c9b674d4a3</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="Forestry" id="forestry" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/forestry-A-2.2.8.4.jar</URL>
+            <MD5>7e2e64c34087e6ce755f4c85f801d837</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/forestry/common.conf</URL>
+                <Path>/config/forestry/common.conf</Path>
+                <MD5>dd0579e8169dd9e238be08d25b666250</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/forestry/base.conf</URL>
+                <Path>/config/forestry/base.conf</Path>
+                <MD5>f464eff0d0dac13c1338a7f3a2f64ae6</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/forestry/apiculture.conf</URL>
+                <Path>/config/forestry/apiculture.conf</Path>
+                <MD5>68a6cf5efaaf2a457a36058f03472f2f</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/forestry/pipes.conf</URL>
+                <Path>/config/forestry/pipes.conf</Path>
+                <MD5>235c65b3d1f916592db5c2c3f8116bed</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/forestry/backpacks.conf</URL>
+                <Path>/config/forestry/backpacks.conf</Path>
+                <MD5>6ecce746e3c8d9b586b504867889ac71</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="Forestry: Magic Bees" id="magicbees" depends="forestry">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/magicbees-2.0.4.jar</URL>
+            <MD5>39614145263cc7180f97a083152cff3d</MD5>
+        </Module>
+        <Module name="Binnie's Mods" id="extrabees" depends="forestry">
+            <!-- Still called "extrabees" internally -->
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/extrabees-1.7.0b.jar</URL>
+            <MD5>b4b39aa51204fb4b2693788dd1cef0c2</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/forestry/extratrees/main.conf</URL>
+                <MD5>b5b1b4eca1bba8d99a268e91e5e32523</MD5>
+                <Path>/config/forestry/extratrees/main.conf</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Thaumcraft 3" id="thaumcraft" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/thaumcraft-3.0.5h.zip</URL>
+            <MD5>0d292194594aae6559cbad12d3a68395</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/Thaumcraft.cfg</URL>
+                <MD5>84b18cc407516ac8e088c4154dc52206</MD5>
+                <Path>/config/Thaumcraft.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="EnderStorage" id="enderstorage" depends="codechickencore">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/enderstorage-1.4.2.11.jar</URL>
+            <MD5>2a78ff36568bf2139439f8b56c0d58bb</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/EnderStorage.cfg</URL>
+                <MD5>529c7c3e121a0061c66d2f6065abf04c</MD5>
+                <Path>/config/EnderStorage.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Wild Caves 3" id="wildcaves" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/wildcaves3-0.4.2.zip</URL>
+            <MD5>e4f119b09e9e9805fb17e1db4dee455a</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/WildCaves3.cfg</URL>
+                <MD5>ee0673a37e82c768310332b5296b1be7</MD5>
+                <Path>/config/WildCaves3.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="8-Bit Records" id="eightbit" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/eightbit-1.0.5.zip</URL>
+            <MD5>5161d03d846156072a3f3cadf313fc34</MD5>
+            <Extract>true</Extract>
+            <InRoot>true</InRoot>
+        </Module>
+        <Module name="Iron Chests" id="ironchests" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/ironchest-5.2.4.384.zip</URL>
+            <MD5>e690ec39b2012af028ba1b4180a8d478</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/IronChest.cfg</URL>
+                <MD5>f4847619f6bcbae4ec1bfc15ea878499</MD5>
+                <Path>/config/IronChest.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <Module name="Hats" id="hats" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/hats-1.3.3.zip</URL>
+            <MD5>eb8ce1cd5dd94f8de055ee8554ab6707</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/Hats.cfg</URL>
+                <MD5>76b6539a6ed22a00f5f3ca2b3269fc9f</MD5>
+                <Path>/config/Hats.cfg</Path>
+            </ConfigFile>
+        </Module>
+        <!-- Small Tweak Mods -->
+        <Module name="Ore Dupe Fix" id="oredupefix" depends="">
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <URL>http://launcher.dmptr.com/playpack2/mods/oredupefix-3.1.jar</URL>
+            <MD5>9d5f74eaa6f1062e38433d639306a4d8</MD5>
+            <ConfigFile>
+                <URL>http://launcher.dmptr.com/playpack2/config/OreDupeFix.cfg</URL>
+                <MD5>c066fda7530026b192a8e495cf1f7073</MD5>
+                <Path>/config/OreDupeFix.cfg</Path>
+            </ConfigFile>
+        </Module>
+    </Server>
+</ServerPack>
